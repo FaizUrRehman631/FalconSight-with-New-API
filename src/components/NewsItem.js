@@ -13,7 +13,7 @@ const NewsItem = (props) => {
             !imageUrl? "https://i.insider.com/671a9caba0a0cc14f223b618?width=1200&format=jpeg":
                imageUrl
           }
-          className="card-img-top"
+          className="card-img-top" style={{height:"12rem"}}
           alt=""
         />
         <div className="card-body d-flex flex-column">
